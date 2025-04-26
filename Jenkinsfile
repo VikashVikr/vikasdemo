@@ -4,6 +4,7 @@ pipeline {
         stage('dev') {
             steps {
                 sh  "/tmp/dev.sh"
+                echo "hi"
             }
         }
         stage('staging') {
